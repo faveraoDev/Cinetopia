@@ -22,10 +22,10 @@
 
 <h2>👁️ Preview</h2>
 <div>
-  <img src="" width="200px" hspace="10px">
-  <img src="" width="200px" hspace="10px">
-  <img src="" width="200px" hspace="10px">
-  <img src="" width="200px" hspace="10px">
+  <img src="Cinetopia/Assets.xcassets/Previews/preview-tela-inicio.imageset/preview-tela-inicio.png" width="200px" hspace="10px">
+  <img src="Cinetopia/Assets.xcassets/Previews/preview-tela-filmes.imageset/preview-tela-filmes.png" width="200px" hspace="10px">
+  <img src="Cinetopia/Assets.xcassets/Previews/preview-tela-filme-selecionado.imageset/preview-tela-filme-selecionado.png" width="200px" hspace="10px">
+  <img src="Cinetopia/Assets.xcassets/Previews/preview-tela-busca.imageset/preview-tela-busca.png" width="200px" hspace="10px">
 </div>
 
 <h2>🧑🏻‍💻 Desenvolvido por</h2>
