@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA0B60072C470EA100E3E8DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0B60062C470EA100E3E8DB /* AppDelegate.swift */; };
+		BA0B60092C470EA100E3E8DB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0B60082C470EA100E3E8DB /* SceneDelegate.swift */; };
+		BA0B600B2C470EA100E3E8DB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0B600A2C470EA100E3E8DB /* HomeViewController.swift */; };
+		BA0B60102C470EA200E3E8DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA0B600F2C470EA200E3E8DB /* Assets.xcassets */; };
+		BA0B60132C470EA200E3E8DB /* Base in Resources */ = {isa = PBXBuildFile; fileRef = BA0B60122C470EA200E3E8DB /* Base */; };
+		BA262D442C4ECD4E00B4E3D7 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA262D432C4ECD4E00B4E3D7 /* Movie.swift */; };
+		BA262D472C4ED8CA00B4E3D7 /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA262D462C4ED8CA00B4E3D7 /* MovieTableViewCell.swift */; };
+		BA5F7D982C502E3200E18139 /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5F7D972C502E3200E18139 /* MovieDetailsViewController.swift */; };
+		BA84FD192C4D861E00E33325 /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA84FD182C4D861E00E33325 /* MoviesViewController.swift */; };
+		BA93CBAF2C53E1A0003266D5 /* MovieService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA93CBAE2C53E1A0003266D5 /* MovieService.swift */; };
+		DA0F72950CE70E4CE0D36D4A /* Pods_Cinetopia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3F5A7657FFBA9E97A5CF31F /* Pods_Cinetopia.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		08C4D4742E61A6DD8402D926 /* Pods-Cinetopia.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cinetopia.debug.xcconfig"; path = "Target Support Files/Pods-Cinetopia/Pods-Cinetopia.debug.xcconfig"; sourceTree = "<group>"; };
+		A3F5A7657FFBA9E97A5CF31F /* Pods_Cinetopia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cinetopia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA0B60032C470EA100E3E8DB /* Cinetopia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cinetopia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA0B60062C470EA100E3E8DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BA0B60082C470EA100E3E8DB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BA0B600A2C470EA100E3E8DB /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		BA0B600F2C470EA200E3E8DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA0B60122C470EA200E3E8DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BA0B60142C470EA200E3E8DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA262D432C4ECD4E00B4E3D7 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		BA262D462C4ED8CA00B4E3D7 /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
+		BA5F7D972C502E3200E18139 /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
+		BA84FD182C4D861E00E33325 /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
+		BA93CBAE2C53E1A0003266D5 /* MovieService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieService.swift; sourceTree = "<group>"; };
+		F54F78BBB85D9F976E1C295D /* Pods-Cinetopia.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cinetopia.release.xcconfig"; path = "Target Support Files/Pods-Cinetopia/Pods-Cinetopia.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA0B60002C470EA100E3E8DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA0F72950CE70E4CE0D36D4A /* Pods_Cinetopia.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA0B5FFA2C470EA100E3E8DB = {
+			isa = PBXGroup;
+			children = (
+				BA0B60052C470EA100E3E8DB /* Cinetopia */,
+				BA0B60042C470EA100E3E8DB /* Products */,
+				F82FAEA9FDEFDB1CF33D9A98 /* Pods */,
+				E1D65DEBB3CF3DE1CC3D0CDC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BA0B60042C470EA100E3E8DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA0B60032C470EA100E3E8DB /* Cinetopia.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA0B60052C470EA100E3E8DB /* Cinetopia */ = {
+			isa = PBXGroup;
+			children = (
+				BA93CBAD2C53E177003266D5 /* Services */,
+				BA262D452C4ED8AD00B4E3D7 /* Cells */,
+				BA262D422C4ECD3900B4E3D7 /* ViewControllers */,
+				BA262D412C4ECD2E00B4E3D7 /* Models */,
+				BA0B60062C470EA100E3E8DB /* AppDelegate.swift */,
+				BA0B60082C470EA100E3E8DB /* SceneDelegate.swift */,
+				BA0B600F2C470EA200E3E8DB /* Assets.xcassets */,
+				BA0B60112C470EA200E3E8DB /* LaunchScreen.storyboard */,
+				BA0B60142C470EA200E3E8DB /* Info.plist */,
+			);
+			path = Cinetopia;
+			sourceTree = "<group>";
+		};
+		BA262D412C4ECD2E00B4E3D7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BA262D432C4ECD4E00B4E3D7 /* Movie.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BA262D422C4ECD3900B4E3D7 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				BA0B600A2C470EA100E3E8DB /* HomeViewController.swift */,
+				BA84FD182C4D861E00E33325 /* MoviesViewController.swift */,
+				BA5F7D972C502E3200E18139 /* MovieDetailsViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		BA262D452C4ED8AD00B4E3D7 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				BA262D462C4ED8CA00B4E3D7 /* MovieTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		BA93CBAD2C53E177003266D5 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				BA93CBAE2C53E1A0003266D5 /* MovieService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		E1D65DEBB3CF3DE1CC3D0CDC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A3F5A7657FFBA9E97A5CF31F /* Pods_Cinetopia.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F82FAEA9FDEFDB1CF33D9A98 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				08C4D4742E61A6DD8402D926 /* Pods-Cinetopia.debug.xcconfig */,
+				F54F78BBB85D9F976E1C295D /* Pods-Cinetopia.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA0B60022C470EA100E3E8DB /* Cinetopia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA0B60172C470EA200E3E8DB /* Build configuration list for PBXNativeTarget "Cinetopia" */;
+			buildPhases = (
+				C6A9A8C90E549F6AB74C24CC /* [CP] Check Pods Manifest.lock */,
+				BA0B5FFF2C470EA100E3E8DB /* Sources */,
+				BA0B60002C470EA100E3E8DB /* Frameworks */,
+				BA0B60012C470EA100E3E8DB /* Resources */,
+				99A8228489D132B73DA2C4F5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cinetopia;
+			productName = Cinetopia;
+			productReference = BA0B60032C470EA100E3E8DB /* Cinetopia.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA0B5FFB2C470EA100E3E8DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					BA0B60022C470EA100E3E8DB = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = BA0B5FFE2C470EA100E3E8DB /* Build configuration list for PBXProject "Cinetopia" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA0B5FFA2C470EA100E3E8DB;
+			productRefGroup = BA0B60042C470EA100E3E8DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA0B60022C470EA100E3E8DB /* Cinetopia */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA0B60012C470EA100E3E8DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA0B60102C470EA200E3E8DB /* Assets.xcassets in Resources */,
+				BA0B60132C470EA200E3E8DB /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		99A8228489D132B73DA2C4F5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cinetopia/Pods-Cinetopia-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cinetopia/Pods-Cinetopia-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Cinetopia/Pods-Cinetopia-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6A9A8C90E549F6AB74C24CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Cinetopia-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA0B5FFF2C470EA100E3E8DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA0B600B2C470EA100E3E8DB /* HomeViewController.swift in Sources */,
+				BA0B60072C470EA100E3E8DB /* AppDelegate.swift in Sources */,
+				BA262D472C4ED8CA00B4E3D7 /* MovieTableViewCell.swift in Sources */,
+				BA5F7D982C502E3200E18139 /* MovieDetailsViewController.swift in Sources */,
+				BA0B60092C470EA100E3E8DB /* SceneDelegate.swift in Sources */,
+				BA84FD192C4D861E00E33325 /* MoviesViewController.swift in Sources */,
+				BA93CBAF2C53E1A0003266D5 /* MovieService.swift in Sources */,
+				BA262D442C4ECD4E00B4E3D7 /* Movie.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BA0B60112C470EA200E3E8DB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA0B60122C470EA200E3E8DB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA0B60152C470EA200E3E8DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BA0B60162C470EA200E3E8DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA0B60182C470EA200E3E8DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08C4D4742E61A6DD8402D926 /* Pods-Cinetopia.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6WND578H7R;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Cinetopia/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.faveraoDev.Cinetopia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA0B60192C470EA200E3E8DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F54F78BBB85D9F976E1C295D /* Pods-Cinetopia.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6WND578H7R;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Cinetopia/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.faveraoDev.Cinetopia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA0B5FFE2C470EA100E3E8DB /* Build configuration list for PBXProject "Cinetopia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA0B60152C470EA200E3E8DB /* Debug */,
+				BA0B60162C470EA200E3E8DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA0B60172C470EA200E3E8DB /* Build configuration list for PBXNativeTarget "Cinetopia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA0B60182C470EA200E3E8DB /* Debug */,
+				BA0B60192C470EA200E3E8DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA0B5FFB2C470EA100E3E8DB /* Project object */;
+}
